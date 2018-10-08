@@ -1,15 +1,25 @@
-.img-circle{
-    border-radius: 25em;
-    margin-top:5em;
-    margin-left:5em;
+#navbar-nav{
+    float:right;
 }
 .mychoice{
     margin-top: 5em;
 }
+.decoration{
+    text-decoration:underline;
+}
+#contact{
+    text-decoration:underline;
+}
 #img{
     background-image: url(images.jpg); 
     background-repeat: no-repeat;  
-    background-size:200%;
+    background-size:cover;
+    /* background-size:200%; */
+}
+body{
+    background-image: url(images.jpg); 
+    background-repeat:repeat; 
+    background-size:cover;
 }
 footer{
     height: 40px;
@@ -18,8 +28,7 @@ footer{
 }
 footer p{
     text-align: center;
-    position: relative;
-    
+    position: relative;   
     display: inline-block;
 }
 #af{
